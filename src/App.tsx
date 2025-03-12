@@ -41,10 +41,6 @@ function App() {
   return (
     
     <div className="weather-app">
-      <header className="weather-header">
-        <img className='icon-logo' src={logo} alt="Logo" />
-        <h1 className='weather-title'>Weather App</h1>
-      </header>
       <div className='weather-content'>
         <div className='weather-container'>
         <WeatherControls
