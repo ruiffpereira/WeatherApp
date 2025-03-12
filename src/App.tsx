@@ -1,4 +1,3 @@
-import logo from './logo.png';
 import './App.css';
 import { useState, useEffect } from 'react';
 import { WeatherData } from './types';
