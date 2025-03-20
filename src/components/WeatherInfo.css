@@ -1,0 +1,12 @@
+.weather-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .weather-metric{
+        font-weight: 700;
+        font-size: 44px;
+    }
+}
+

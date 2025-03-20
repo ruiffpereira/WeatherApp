@@ -1,0 +1,26 @@
+.weather-details{
+    display: flex;
+    gap:16px;
+    justify-content: space-between;
+
+    .weather-details__item{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        align-items: center;
+
+        .weather-details__icon{
+           width: 36px;
+           height: 36px;
+        }
+
+        p{
+            font-size: 14px;
+            color: #778DA9;
+            span{
+                font-size: 16px;
+                color: #E0E1DD;
+            }
+       }
+    }
+}
