@@ -46,7 +46,6 @@ function App() {
     setCity(event.target.value);
   };
 
-  console.log('error: ', error);
   return (
     <div className="weather-app grid place-items-center h-full bg-gray-800 p-4 overflow-auto">
         {error ? (
