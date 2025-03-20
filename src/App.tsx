@@ -20,8 +20,6 @@ function App() {
     const apiKey = import.meta.env.VITE_OPENWEATHERMAP_APIKEY;
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${unit}`;
 
-    console.log('apiKey: ', apiKey);
-
     fetch(url)
       .then(response => {
         if (!response.ok) {
@@ -47,7 +45,7 @@ function App() {
   const handleCityChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setCity(event.target.value);
   };
-  
+
   console.log('error: ', error);
   return (
     <div className="weather-app grid place-items-center h-full bg-gray-800 p-4 overflow-auto">
